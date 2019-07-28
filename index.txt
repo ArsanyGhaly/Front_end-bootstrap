@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#871818" />
+
+    <title>BootStrap Template Training</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Droid Sans Font Google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <!-- My Styles Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/default-theme.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Rubik+Mono+One|Space+Mono" rel="stylesheet"
+    </head>
+<body>
+     <!-- Start Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+  
+  <a class="navbar-brand " href="#"> 
+         Hash <span  id="hashtag">  #  </span><span id="second"> Tag</span>
+  </a>
+  
+  <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#mynav" 
+            aria-controls="mynav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end " id="mynav">
+    <ul class="navbar-nav">
+     
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+     
+       <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+     
+       <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+     
+       <li class="nav-item">
+        <a class="nav-link" href="#">Prices</a>
+      </li>
+     
+       <li class="nav-item">
+        <a class="nav-link" href="#">Skills</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      </li>
+       
+      <li class="nav-item">
+        <a class="nav-link" href="#">Events</a>
+      </li>
+     
+      
+     
+    </ul>
+ </div>
+</nav>
+ 
+    <!-- End Navbar --> 
+<!-- Start cluioer --> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./images/slide01.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block  hidden-md">
+        <h1>This is The First</h1>
+        <p>Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.
+        </p>
+        <button class="btn btn-info btn-lg">Read More</button>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./images/slide02.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block hidden-md">
+        <h1>This is The Second</h1>
+        <p class=" lead text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.
+        </p>
+        <button class="btn btn-info btn-lg">Read More</button>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./images/slide03.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block  hidden-md">
+        <h1>This is The Third</h1>
+        <p>Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.
+        </p>
+        <button class="btn btn-info btn-lg">Read More</button>
+    </div>
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="./images/slide04.jpg" alt="Third slide">
+       <div class="carousel-caption d-none d-md-block  hidden-md">
+        <h1>This is The Fourth</h1>
+        <p>Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.
+        </p>
+        <button class="btn btn-info btn-lg">Read More</button>
+    </div>
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- end cluioer --> 
+<!-- start sec --> 
+<section class="about"> 
+    <div class="container">
+        <h3 class="text-center">Meet Our New Template <span>HashTag</span></h3>
+        <p class=" text-center lead">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+    </div>
+</section>
+<!-- end sec --> 
+<!-- start sec --> 
+<section class="features"> 
+    <div class="container">
+        <h1 class="text-center">Our Features</h1>
+        <div class="row">
+            
+            <div class="fea col-lg-3 col-md-6">
+             <div class="text-center"><i class="fab fa-angellist "></i></div>
+             <h2  class="text-center">The First one</h2>
+             <p  class="text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+            </div>
+            
+            <div class="fea col-lg-3 col-md-6">
+             <div class="text-center"><i class="fab fa-asymmetrik"></i></div>
+                 <h2  class="text-center">The Second one</h2>
+             <p  class="text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+            </div>
+           
+            <div class="fea col-lg-3 col-md-6">
+             <div class="text-center"><i class="fas fa-atom"></i></div>
+                 <h2  class="text-center">The Third one</h2>
+             <p  class="text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+            </div>
+           
+            <div class="fea col-lg-3 col-md-6">
+              <div class="text-center"> <i class="fas fa-balance-scale "></i></div>
+                <h2  class="text-center">The Fourth one</h2>
+             <p  class="text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end sec -->
+<!-- Start test -->
+<section class="testimonion">
+    <div class="container">
+    <h1 class="text-center">This IS What Our Clints Say About Us</h1>
+  <div id="test" class="carousel slide" data-ride="carousel">
+  
+
+  
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+      <p class="lead text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+
+      <h4 class=" text-center">The First one</h4>
+    </div>
+    
+    <div class="carousel-item">
+      <p class="lead text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+
+      <h4 class=" text-center">The Second one</h4>
+    </div>
+    
+    <div class="carousel-item">
+       <p class="lead text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+
+      <h4 class=" text-center">The Third one</h4>
+    
+    </div>
+       
+    <div class="carousel-item">
+       <p class="lead text-center">Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+
+      <h4 class=" text-center">The fourth one</h4>
+    </div>
+  
+ 
+    <ol class="carousel-indicators">
+    <li data-target="#test" data-slide-to="0" class="active">
+        <img class="d-block w-100" src="./images/a1.png" alt="Third slide"></li>
+    
+    <li data-target="#test" data-slide-to="1"><img class="d-block w-100 img-circle" src="./images/a2.png" alt="Third slide"></li>
+   
+    <li data-target="#test" data-slide-to="2"><img class="d-block w-100" src="./images/a3.jpg" alt="Third slide"></li>
+    
+    <li data-target="#test" data-slide-to="3"><img class="d-block w-100" src="./images/a4.png" alt="Third slide"></li>
+  </ol>
+   </div>
+</div>
+</div>
+</section>
+<!-- end test -->
+
+<!-- Start price -->
+<section class="Price">
+<div class="container">
+    <h1 class="text-center">Our Prices </h1>
+    <div class="row">
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="price_box">
+
+            <h3 class="text-center text-primary">Card1</h3>
+            <img class="img-responsive" src="./images/slide01.jpg">
+            <p class="lead text-center bg-primary">40$</p>
+            <ul class="list-unstyled text-center bg-primary">
+                            <li>Space: 30GB</li>
+                            <li>Emails: 20</li>
+                            <li>IP's: 2 IP</li>
+                            <li>Databases: 10</li>
+                            <li>FTP Accounts: 5</li>
+            </ul>
+            <button class="center-block btn btn-primary mx-auto d-block  ">Read More</button>
+        </div>
+        </div>
+             <div class="col-lg-3 col-md-6">
+            <div class="price_box">
+
+            <h3 class="text-center text-success">Card1</h3>
+            <img class="img-responsive" src="./images/slide02.jpg">
+             <p class="lead text-center bg-success">40$</p>
+            <ul class="list-unstyled text-center bg-success">
+                            <li>Space: 50GB</li>
+                            <li>Emails: 30</li>
+                            <li>IP's: 5 IP</li>
+                            <li>Databases: 20</li>
+                            <li>FTP Accounts: 10</li>
+            </ul>
+           <button class="btn mx-auto d-block btn-success ">Read More</button>
+        </div>
+        </div>
+
+             <div class="col-lg-3 col-md-6">
+            <div class="price_box">
+
+            <h3 class="text-center text-info">Card1</h3>
+            <img class="img-responsive" src="./images/slide03.jpg">
+             <p class="lead text-center bg-info">40$</p>
+            <ul class="list-unstyled text-center bg-info">
+                            <li>Space: 80GB</li>
+                            <li>Emails: 40</li>
+                            <li>IP's: 8 IP</li>
+                            <li>Databases: 30</li>
+                            <li>FTP Accounts: 20</li>
+            </ul>
+            <button class="btn btn-info mx-auto d-block  ">Read More</button>
+        </div>
+        </div>
+
+             <div class="col-lg-3 col-md-6">
+            <div class="price_box">
+
+            <h3 class="text-center text-danger">Card1</h3>
+            <img class="img-responsive" src="./images/slide04.jpg">
+             <p class="lead text-center bg-danger">40$</p>
+            <ul class="list-unstyled text-center bg-danger">
+                            <li>Space: 90GB</li>
+                            <li>Emails: 50</li>
+                            <li>IP's: 10 IP</li>
+                            <li>Databases: 50</li>
+                            <li>FTP Accounts: 50</li>
+            </ul>
+            <button class="btn btn-danger mx-auto d-block">Read More</button>
+        </div>
+        </div>
+
+
+        
+
+    </div>
+</div>
+</section>
+
+<!-- end Price -->
+<section class="images">
+    <div class="container">
+            <div class="info">
+                <h1 class="text-center">
+                    Our New Section
+                </h1>
+                <p class="lead text-center"> possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+            </div>
+            <ul class="list-unstyled row ">
+                <li data-class="all" class=" active col-md">All</li>
+                <li data-class=".web" class="col-md" >Web Design</li>
+                <li data-class=".Science" class="col-md">Data Science</li>
+                <li data-class=".graphic" class="col-md">Graphic</li>
+                <li data-class=".Markting" class="col-md">Markting</li>
+                <li data-class=".Vidoes" class="col-md">Vidoes</li>
+               
+            </ul>
+
+            <div class="shfull">
+        <div class="row">
+            <div class="col-md ">
+                <img src="./images/p1.jpg" class="Science"/>
+            </div>
+
+            <div class="col-md">
+                <img src="./images/p2.jpg" clas="Markting"/>
+            </div>
+
+            <div class="col-md ">
+                <img src="./images/p3.jpg" class="Markting"/>
+            </div>
+
+            <div class="col-md">
+                <img src="./images/p4.jpg" class="web"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md ">
+                <img src="./images/p5.jpg" class="Vidoes"/>
+            </div>
+
+            <div class="col-md">
+                <img src="./images/p6.jpg" class="web"/>
+            </div>
+
+            <div class="col-md ">
+                <img src="./images/p7.jpg" class="graphic"/>
+            </div>
+
+            <div class="col-md ">
+                <img src="./images/p2.jpg" clas="Markting"/>
+            </div>
+        </div>
+        <div class="row">
+              <div class="col-md ">
+                <img src="./images/p9.jpg" class="Science"/>
+            </div>
+
+            <div class="col-md ">
+                <img src="./images/p10.jpg" class="web"/>
+            </div>
+
+            <div class="col-md ">
+                <img src="./images/p11.jpg" class="graphic"/>
+            </div>
+
+            <div class="col-md ">
+                <img src="./images/p12.jpg" class="Vidoes"/>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</section>
+
+<!-- start team -->
+<section class="team">
+    <div class="ourteam">
+        <div class="container">
+            <h1 class="text-center">Meet Our Awesome Team </h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="person">
+                    <img class="img-responsive rounded-circle mx-auto d-block" src="./images/team1.jpg">
+                    <h3 class="text-center">person person</h3>
+                    <p class="text-center">Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-6">
+                     <div class="person">
+                    <img class="img-responsive rounded-circle mx-auto d-block" src="./images/team2.jpg">
+                    <h3 class="text-center">person person</h3>
+                    <p class="text-center"> Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-6">
+                     <div class="person">
+                    <img class="img-responsive rounded-circle mx-auto d-block" src="./images/team3.jpg">
+                    <h3 class="text-center">person person</h3>
+                    <p class="text-center">Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-6">
+                     <div class="person">
+                    <img class="img-responsive rounded-circle mx-auto d-block" src="./images/team4.jpg">
+                    <h3 class="text-center">person person</h3>
+                    <p class="text-center">Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end team -->
+
+<!-- start stats -->
+<sextion class="skills">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-7">
+                <h1 class="text-center">Our Skills </h1>
+                <div class="prog">
+                    <div class="progress">
+                      <div class="progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                  </div>
+                 
+                  <div class="progress">
+                        <div class="progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS</div>
+</div>
+<div class="progress">
+                        <div class="progress-bar-animated progress-bar-striped bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JAVA SCRIPT</div>
+</div>
+<div class="progress">
+
+                        <div class="progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">NODE JS</div>
+</div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="about">
+                    <h1 class="text-center">About US </h1>
+                    <p >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                    <button class="btn btn-danger mx-auto d-block">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</sextion>
+<!-- End stats -->
+<!-- Start contanct -->
+<section class="contact">
+    <div class="contantbg">
+        <div class="container">
+            <div class="text-center"><i class="fas fa-envelope"></i></div>
+            <h1 class="text-center">Contact Us</h1>
+            <h3 class="text-center">Feel free To Tell Us About Us Any Time</h3>
+            <p class="text-center">We Here To Hear You And Serve You</p>
+            
+            <form role="form">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control " placeholder="Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control input-lg" placeholder="Your Email">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Your Telephone">
+                        </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            
+                            <div class="form-group">
+                                <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                            </div>
+
+                            <button type="button" class="btn btn-danger btn-lg btn-block">Send Message</button>
+                        </div>
+                    </div>
+                        </form>
+
+                        
+</div>
+                    
+                      
+                </div>
+
+
+            </div>
+        </div>
+</section>
+<!-- End contanct -->
+
+<!-- start clints -->
+<section class="singup">
+    <div class="container">
+        <h1 class="text-center">Sing Up</h1>
+        <h3 class="text-center">Enter Your Email To Get Our News</h3>
+     
+        <form role="form" class="form-inline justify-content-center">
+            <div class="form-group mx-sm-3 mb-2">
+                 <input type="email" class="form-control input-lg" placeholder="Your email">
+                  <button type="button" class="btn btn-danger  mb-2">Send Message</button>
+
+            </div>
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- end clints -->
+
+
+    
+    
+<section class="flow">
+    <div class="flowbg">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/contact.jpg" class="img-responsive center-block" />
+            </div>
+            <div class="col-md-6 rt">
+                <h1 class="head-border" >The First Title</h1>
+                <p>Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui</p>
+<div class="more">
+                    <i class="fab fa-adn float-left"></i>
+                <div class="float-left m">
+                    
+                <h4>More 1</h4>
+                 <p>Lorem ipsum dolor sit amet,</p>
+                 </div>
+</div>
+          <div class="more">
+                    <i class="fab fa-adn float-left"></i>
+                <div class="float-left m">
+                    
+                <h4>More 1</h4>
+                 <p>Lorem ipsum dolor sit amet,</p>
+                 </div>
+</div>      
+            </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div class="tabs-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2">
+                    <ul class="text-center list-unstyled tab-switch">
+                        <li class="selected" data-class="tab1">Tab 1</li>
+                        <li data-class="tab2">Tab 2</li>
+                        <li data-class="tab3">Tab 3</li>
+                        <li data-class="tab4">Tab 4</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="tab-content">
+                        <div class="tab1">
+                            <h2>The First Slide</h2>
+                            <p class="lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                            <button type="button" class="btn btn-warning ">Learn More</button>
+                        </div>
+
+                              <div class="tab2">
+                            <h2>The Second Slide</h2>
+                            <p class="lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                            <button type="button" class="btn btn-warning ">Learn More</button>
+                        </div>
+
+                              <div class="tab3">
+                            <h2>The Third Slide</h2>
+                            <p class="lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                            <button type="button" class="btn btn-warning ">Learn More</button>
+                        </div>
+
+                              <div class="tab4">
+                            <h2>The Forth Slide</h2>
+                            <p class="lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                            <button type="button" class="btn btn-warning ">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    
+                     <img src="./images/img3.jpg" class="photo img-responsive center-block" >
+        
+            </div>
+     </div>       
+    </div>
+</div>
+
+<section class="newsec">
+    <div class="secbg">    
+    <div class="container">
+        <div class="contain>">
+            <h2 class="text-center">The Forth Slide</h2>
+            <h4 class="text-center">The Second Title</h4>
+                                <p class=" text-center lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+        </div>
+        
+        <div class="row">         
+            <div class="col-md-4"> 
+                <div class="card card-inverse">
+                        <img class="card-img" src="./images/i1.jpg" alt="Card image">
+                        
+                        <div class="card-img-overlay">
+                            <h4 class="text-center card-title">Card title</h4>
+                            <p class="text-center card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <button type="button" class="btn btn-info mx-auto d-block ">Learn More</button>
+                        </div>
+                </div>
+            </div>
+
+               <div class="col-md-4"> 
+                <div class="card card-inverse">
+                        <img class="card-img" src="./images/i2.jpg" alt="Card image">
+                        
+                        <div class="card-img-overlay">
+                            <h4 class="text-center card-title">Card title</h4>
+                            <p class="text-center card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <button type="button" class="btn btn-info mx-auto d-block ">Learn More</button>
+                        </div>
+                </div>
+            </div>
+
+               <div class="col-md-4"> 
+                <div class="card card-inverse">
+                        <img class="card-img" src="./images/i3.jpg" alt="Card image">
+                        
+                        <div class="card-img-overlay">
+                            <h4 class=" text-center card-title">Card title</h4>
+                            <p class=" text-center card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <button type="button" class="btn btn-info mx-auto d-block">Learn More</button>
+                        </div>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="hup">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <img src="./images/iq.png" class="img-fluid">
+            </div>
+              <div class="col-md-6">
+                <div class=" tabs row">
+              <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                  <a class="nav-link" id="v-pills-Team-tab" data-toggle="pill" href="#v-pills-Team" role="tab" aria-controls="v-pills-Team" aria-selected="false">Team</a>
+                  <a class="nav-link" id="v-pills-events-tab" data-toggle="pill" href="#v-pills-events" role="tab" aria-controls="v-pills-events" aria-selected="false">events</a>
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <h1 class="text-center">Home</h1>
+                        <h4 class="text-center">The Second Title</h4>
+                                <p class="pull-left lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                          <h1 class="text-center">Profile</h1>
+                        <h4 class="text-center">The Second Title</h4>
+                                <p class="pull-left lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                          <h1 class="text-center">Skills</h1>
+                        <h4 class="text-center">The Second Title</h4>
+                                <p class="pull-left lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                          <h1 class="text-center">Settings</h1>
+                        <h4 class="text-center">The Second Title</h4>
+                                <p class="pull-left lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                  </div>
+
+                  <div class="tab-pane fade" id="v-pills-events" role="tabpanel" aria-labelledby="v-pills-events-tab">
+                          <h1 class="text-center">Events</h1>
+                        <h4 class="text-center">The Second Title</h4>
+                                <p class="pull-left lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                  </div>
+
+                  <div class="tab-pane fade" id="v-pills-Team" role="tabpanel" aria-labelledby="v-pills-Team-tab">
+                          <h1 class="text-center">Team</h1>
+                        <h4 class="text-center">The Second Title</h4>
+                                <p class="pull-left lead" >Lorem ipsum dolor sit amet, id eum vitae option, an mea dicam interesset, suas tritani recusabo ut qui. Vis quis mollis percipit no. Alii possim et duo, nec at nulla aperiri consectetuer. Et ponderum deserunt oportere.</p>
+                  </div>
+                </div>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 first">
+                <h3 class="head-border">Site Map</h3>
+                <ul class="list-unstyled three">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Features</li>
+                    <li>Team</li>
+                    <li>Prices</li>
+                    <li>Skills</li>
+                    <li>Contact Us</li>
+                    <li>Sing Up</li>
+                    <li>Events</li>
+                </ul>
+
+                 <ul class="list-unstyled social">
+                    <li> <img src="./images/social/email.svg" alt="Card image"></li>
+                    <li> <img src="./images/social/facebook.svg" alt="Card image"></li>
+                    <li> <img src="./images/social/pinterest.svg" alt="Card image"></li>
+                    <li> <img src="./images/social/google-plus.svg" alt="Card image"></li>
+                    <li> <img src="./images/social/twitter.svg" alt="Card image"></li>
+                </ul>
+            </div>
+            <div class="col-md-4  second">
+                <h3 class="head-border">Last Articales</h3>
+                <div class="media">
+                    <a class="pull-left">
+                        <img class="media-object" src="./images/articles/article1.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            Programming
+                        </h4>
+                        this is the first article.
+                    </div>
+                </div>
+
+                   <div class="media">
+                    <a class="pull-left">
+                        <img class="media-object" src="./images/articles/article2.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            Data Science
+                        </h4>
+                        this is the first article.
+                    </div>
+                </div>
+
+                   <div class="media">
+                    <a class="pull-left">
+                        <img class="media-object" src="./images/articles/article3.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            Graphic Design
+                        </h4>
+                        this is the first article.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 third">
+                <h3 class="head-border">Our Awesome Work</h3>
+                <div>
+                 <img class="img-thumbnail" src="./images/work/work1.jpg"> 
+
+                  <img class="img-thumbnail" src="./images/work/work2.jpg">
+
+                   <img class="img-thumbnail" src="./images/work/work3.jpg">
+
+                    <img class="img-thumbnail" src="./images/work/work4.jpg">
+                </div>
+              
+            </div>
+        </div>    
+    </div>
+</section>
+<section class="copyright">
+    <h4 class="text-center">CopyRight 2017 Designed BY:Arthanios S Ghaly</h4>
+</section>
+
+  <!-- Start Scroll To Top -->
+    <div id="scroll-top">
+       <i class="fas fa-hand-point-up"></i>
+    </div>
+    <!-- End Scroll To Top -->
+<div class="loading">
+    <div class="spinner text-center">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+</div>
+    </div>
+ 
+</div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/plugins.js"></script>
+</body>
